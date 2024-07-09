@@ -226,6 +226,7 @@ nav{
     max-width: 1140px;
     height: 777px;
     margin: 0 auto;
+    margin-bottom: 149px;
 
 }
 
@@ -255,5 +256,258 @@ margin-bottom: 24px;
     border-radius: 16px;
     padding: 32px;
     stroke:rgba(13, 19, 33, 0.2);
-    margin-bottom: 149px;
+    
 }
+
+/* My Target Container Starts here */
+.my-target-container{
+    max-width: 1140px;
+    height: 1442px;
+    margin: 0 auto;
+}
+
+.my-target-container h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.my-target-container h6{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+
+.html-container{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 300px;
+}
+
+.css-container{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 300px;
+}
+
+.javascript-container{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 300px;
+}
+
+.parent-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+
+}
+
+.html-container img{
+    margin-bottom: 24px;
+}
+
+.html-container h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+.html-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin-bottom: 24px;
+
+}
+
+.html-container h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+.css-container img{
+    margin-bottom: 24px;
+}
+
+.css-container h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+.css-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin-bottom: 24px;
+
+}
+
+.css-container h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.javascript-container img{
+    margin-bottom: 24px;
+}
+
+.javascript-container h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+.javascript-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin-bottom: 24px;
+
+}
+
+.javascript-container h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.react-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.react-child-container{
+    display: flex;
+    flex-direction:column;
+}
+
+.node-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.node-child-container{
+    display: flex;
+    flex-direction:column;
+}
+
+.mongodb-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.mongodb-child-container{
+    display: flex;
+    flex-direction:column;
+}
+.node-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 16px 0px;
+}
+
+.mongodb-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 16px 0px;
+}
+.parent-next-target-container h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left; 
+    margin-bottom: 8px;
+}
+
+.parent-next-target-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.parent-next-target-container h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
