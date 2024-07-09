@@ -264,6 +264,7 @@ margin-bottom: 24px;
     max-width: 1140px;
     height: 1442px;
     margin: 0 auto;
+    margin-bottom: 180px;
 }
 
 .my-target-container h1{
@@ -459,6 +460,7 @@ margin-bottom: 24px;
     display: flex;
     gap: 24px;
     align-items: center;
+    
 }
 
 .mongodb-child-container{
@@ -479,6 +481,7 @@ margin-bottom: 24px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     margin: 16px 0px;
+    
 }
 .parent-next-target-container h1{
     color: rgb(13, 19, 33);
@@ -510,4 +513,84 @@ margin-bottom: 24px;
     text-align: left;
     text-decoration-line: underline;
 }
+
+/* support section starts here */
+.support-container{
+    max-width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    border-radius: 16px;
+    /* background:url(../assets/handshake.jpg) rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+    /* background-image:url(../assets/handshake.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      
+}
+
+.support-parent-container{
+    padding: 64px 48px 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-container p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    
+}
+
+.support-container input[type="text"]{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-container .button-container4{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;   
+
+}
+.parent-form{
+    display: flex;
+    gap: 16px;
+
+}
+
 
