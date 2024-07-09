@@ -225,7 +225,6 @@ nav{
 .inspiration-container{
     max-width: 1140px;
     height: 777px;
-    border: 1px solid red;
     margin: 0 auto;
 
 }
@@ -247,6 +246,14 @@ margin-bottom: 24px;
     line-height: 26px;
     opacity: 0.7;
     text-align: center;
+    margin-bottom: 48px;
+}
 
-
+.inspiration-yt-channel-link{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    stroke:rgba(13, 19, 33, 0.2);
+    margin-bottom: 149px;
 }
