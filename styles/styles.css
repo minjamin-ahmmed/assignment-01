@@ -91,7 +91,6 @@ nav{
 /* why web dev section styles start here */
 .choosing-dev-container{
     max-width: 1140px;
-    height: 1395px;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -266,9 +265,8 @@ margin-bottom: 24px;
 /* My Target Container Starts here */
 .my-target-container{
     max-width: 1140px;
-    height: 1442px;
     margin: 0 auto;
-    margin-bottom: 180px;
+    margin-bottom: 42px;
 }
 
 .my-target-container h1{
@@ -522,7 +520,6 @@ margin-bottom: 24px;
 /* support section starts here */
 .support-container{
     max-width: 1140px;
-    height: 314px;
     margin: 0 auto;
     border-radius: 16px;
     /* background:url(../assets/handshake.jpg) rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2); */
@@ -532,11 +529,11 @@ margin-bottom: 24px;
     background-position: center;
     background-size: cover;
     margin-bottom: 79px;
+    padding: 64px 48px 64px 48px;
       
 }
 
 .support-parent-container{
-    padding: 64px 48px 64px 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
