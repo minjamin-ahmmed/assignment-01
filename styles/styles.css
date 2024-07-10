@@ -72,6 +72,10 @@ nav{
 
 }
 
+.banner-container a{
+    text-decoration: none;
+}
+
 .button-container2{
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
@@ -526,6 +530,7 @@ margin-bottom: 24px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 79px;
       
 }
 
@@ -590,6 +595,35 @@ margin-bottom: 24px;
 .parent-form{
     display: flex;
     gap: 16px;
+    align-items: center;
+
+}
+
+/* footer section styles starts here */
+.footer-container{
+    max-width: 1440px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+
+.footer-element{
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-container h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icon-element a{
+    text-decoration: none;
 
 }
 
